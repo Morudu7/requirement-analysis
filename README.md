@@ -62,4 +62,14 @@ Requirement Analysis is a critical phase in the software development lifecycle (
    - Usability: The application should have an intuitive UI/UX, making it easy for users to navigate and perform tasks.
    - Reliability: The system should have an uptime of 99.9% and recover quickly from any failures.
     
+## Use Case Diagrams.
+Use case diagrams show how different users (actors) interact with the system to achieve specific goals (use cases).
 
+- Benefits of Use Case Diagrams:
+     - Provide a clear visual representation of system functionalities.
+     - Help in identifying and organizing system requirements.
+     - Facilitate communication among stakeholders and development team.
+
+- Example of a Use Case Diagram
+     - 
+       
