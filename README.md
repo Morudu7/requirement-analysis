@@ -1,17 +1,17 @@
-# Requirement Analysis in Software Development.
+# 📌Requirement Analysis in Software Development.
 The purpose of this repository is to explain in details on what is actually the importance of Requirement Analysis phase whisc is used in the software development lifecycle (SDLC).
 
-## What is Requirement Analysis
+## 🚀What is Requirement Analysis
 Requirement Analysis is a critical phase in the software development lifecycle (SDLC) where the project team gathers, analyzes, and defines the requirements of the software product to be developed. This process ensures that all stakeholders have a clear and mutual understanding of what the system should do and how it should perform.
 
-## Why is Requirement Analysis Important?
+## 🥇Why is Requirement Analysis Important?
 - Clarity and Understanding: It helps in understanding what the stakeholders expect from the software, reducing ambiguity.
 - Scope Definition: Clearly defines the scope of the project, which helps in preventing scope creep.
 - Basis for Design and Development: Provides a solid foundation for designing and developing the system.
 - Cost and Time Estimation: Facilitates accurate estimation of project cost, resources, and time.
 - Quality Assurance: Ensures that the final product meets the specified requirements, leading to higher customer satisfaction.
 
-## Key Activities in Requirement Analysis.
+## 📑Key Activities in Requirement Analysis.
 1. Requirement Gathering 🗂️
    - Interviews: Conducting interviews with stakeholders to gather detailed information about their needs and expectations.
    - Surveys/Questionnaires: Distributing surveys to collect requirements from a larger audience.
@@ -39,7 +39,7 @@ Requirement Analysis is a critical phase in the software development lifecycle (
    - Acceptance Criteria: Defining clear acceptance criteria for each requirement to ensure they meet the expected standards.
    - Traceability: Establishing traceability matrices to ensure all requirements are addressed during development and testing.
      
-## Types of Requirements
+## 📚Types of Requirements
 ### Functional Requirements ⚙️
 - Definition: Describe what the system should do.
 - Examples: User authentication, property search, booking system, user registration.
@@ -62,7 +62,7 @@ Requirement Analysis is a critical phase in the software development lifecycle (
    - Usability: The application should have an intuitive UI/UX, making it easy for users to navigate and perform tasks.
    - Reliability: The system should have an uptime of 99.9% and recover quickly from any failures.
     
-## Use Case Diagrams.
+## 🧩Use Case Diagrams.
 Use case diagrams show how different users (actors) interact with the system to achieve specific goals (use cases).
 
 - Benefits of Use Case Diagrams:
@@ -71,5 +71,29 @@ Use case diagrams show how different users (actors) interact with the system to 
      - Facilitate communication among stakeholders and development team.
 
 - Example of a Use Case Diagram
-     - 
+The following is the boooking system for a hotel/airbnb using a use case diagram
+     - ![The booking system diagram](./Images/alx-booking-uc.png)
        
+## 🧩Acceptance Criteria
+### What is Acceptance Criteria?
+Acceptance criteria are conditions that a feature must meet to be accepted by the stakeholders.
+
+- How to Define Acceptance Criteria:
+  - Be specific and measurable.
+  - Include functional and non-functional aspects.
+  - Example for Booking System: “Users should be able to select available dates, confirm booking, and receive a confirmation email within 2 minutes.”
+
+### Benefits of Acceptance Criteria:
+   - Ensure all parties have a clear understanding of feature requirements.
+   - Provide a basis for testing and validation.
+   - Help in maintaining quality and meeting user expectations.
+
+### Example of a checkout feature in a booking management system
+
+| Criterion Category |	Acceptance Criterion |
+| ---- | ---- |
+| Valid | The system must display a clear error message and prevent payment if any required booking detail (e.g., date, number of people) is missing or invalid. |
+| Payment Success	| Upon successful payment, the customer must be immediately redirected to a Booking Confirmation page. |
+| Inventory | Upon successful payment, the reserved slot/resource must be immediately marked as booked in the system's inventory. |
+| User Experience	| The total price displayed at checkout must accurately reflect the booked item, including all taxes and optional add-ons. |
+| ConfirmationA | confirmation email with all booking details and payment receipt must be automatically sent to the customer within one minute of payment completion. |
