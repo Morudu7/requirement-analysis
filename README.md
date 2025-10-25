@@ -1,5 +1,5 @@
 # 📌Requirement Analysis in Software Development.
-The purpose of this repository is to explain in details on what is actually the importance of Requirement Analysis phase whisc is used in the software development lifecycle (SDLC).
+The purpose of this repository is to explain in details on what is actually the importance of Requirement Analysis phase which is used in the software development lifecycle (SDLC).
 
 ## 🚀What is Requirement Analysis
 Requirement Analysis is a critical phase in the software development lifecycle (SDLC) where the project team gathers, analyzes, and defines the requirements of the software product to be developed. This process ensures that all stakeholders have a clear and mutual understanding of what the system should do and how it should perform.
@@ -70,7 +70,7 @@ Use case diagrams show how different users (actors) interact with the system to 
      - Help in identifying and organizing system requirements.
      - Facilitate communication among stakeholders and development team.
 
-- Example of a Use Case Diagram
+### Example of a Use Case Diagram
 The following is the boooking system for a hotel/airbnb using a use case diagram
      - ![The booking system diagram](./Images/alx-booking-uc.png)
        
